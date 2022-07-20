@@ -1,0 +1,26 @@
+.product{
+    display: flex;
+    padding: 50px;
+}
+.img{
+    width: 50%;
+}
+.img img{
+    display: block;
+    margin: auto;    
+}
+.description{
+    width: 50%;
+}
+
+@media (max-width: 930px) {
+    .product{
+        flex-direction: column-reverse; 
+    }
+    .img{
+        width: 100% !important;
+    }
+    .description{
+        width: 100% !important;
+    }
+}

@@ -19,7 +19,7 @@ const singleProduct = ({product}) => {
                 <h1>{price},00$</h1>
                 <p>{description}</p>
             </div>
-        </div>
+        </div> 
     )
 }
 

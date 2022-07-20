@@ -12,3 +12,41 @@
 .description{
     width: 50%;
 }
+
+.description h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.description h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.description h1{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 930px) {
+    .product{
+        flex-direction: column; 
+    }
+    .img{
+        width: 100% !important;
+    }
+    .description{
+        width: 100% !important;
+    }
+    .description h2{
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .description h3{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .description h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
