@@ -8,6 +8,6 @@
 
 module.exports = {
   images:{
-    domains:['fakestoreapi.com']
+    domains:['fakestoreapi.com', 'nextjs-ecommerce-git-main-koudev1.vercel.app']
   }
 }
