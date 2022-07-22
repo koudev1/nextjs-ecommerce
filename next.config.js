@@ -1,7 +1,7 @@
 module.exports = {
     images: {
         loader: 'cloudinary',
-        path: 'nextjs-ecommerce-git-main-koudev1.vercel.app',
+        path: 'https://nextjs-ecommerce-five-taupe.vercel.app/',
         domains: ['fakestoreapi.com']
     }
 }
